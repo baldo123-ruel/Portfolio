@@ -183,89 +183,8 @@
     padding: 5px;
     border-left: 2px rgb(230, 228, 228) solid;
 }
-.aboutme{
-    float: left;
-    width: 50%;
-    position: static;
-    margin: -20px 50px 50px 80px;
-    background-color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
-    padding-bottom: 10px;
-    border-radius: 10px;
-    height: auto;
-    border: 1px rgb(212, 210, 210) solid;
-}
-.aboutme h3{
-    text-align: center;
-    font-family: 'Bungee';
-    color: #555;
-    font-size: 20px;
-}
-.paragraph{
-   
-    width: 90%;
-    font-size: 12px;
-    color: #555;
-    margin-left: 5%;
-    height: auto;
-    border-left: 2px #fff solid;
-}
-.paragraph p{
-    font-family: Montserrat;
-    padding-left: 40px;
-    color:#555;
-    font-style: italic;
-    line-height: 2.1em;
-    font-size: 15px;
-}
-.icons-flex img{
-    width: 15%;
-    
-    
-}
 
-.icons-flex a{
-    padding: 10px;
-    text-decoration: #fff;
-    
-}
-.icons-flex p{
-    color:rgb(230, 228, 228);
-    font-family: 'BioRhyme', serif;
-}
-.icons-flex{
-    width: 60%;
-   border-radius: 50px;
-    
-}
-.my-header{
-    margin: 0;
-    width: 100%;
-    background-color: #fff;
-    padding: 60px;
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
-}
-.my-info{
-    padding-top: 10px;
-    width: 100%;
-}
-.my-header h1{
-    font-size: 50px;
-    color: #555;
-    font-family: 'Bungee', cursive;
-}
-.logo{
-    display: flex;
-    width: 100%;
-}
-.logo img{
-    width: 5%;
-}
-.logo p{
-    font-family: Montserrat;
-    display: flex;
-    align-items: center;
-}
+
 @media only screen and (max-width: 400px,){
     #languages{
         justify-content: center;
@@ -318,21 +237,7 @@
         color: #fff;
     }
 
-    .aboutme{
-        width: 100%;
-        background-color: unset;
-        border: unset;
-        margin: unset;
-    }
-    .aboutme h3{
-        color: #fff;
-    }
-    .paragraph p{
-        color: #fff;
-    }
-    .icons-flex img{
-        width: 30%;
-    }
+    
     .my-info{
         width: 100%;
     }
