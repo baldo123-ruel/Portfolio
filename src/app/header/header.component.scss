@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: #555;
+    font-family: 'Bungee', cursive;
+    background-color: #fff;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+}
+.img-name-content{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.img-name-content img{
+    margin-left: 3%;
+    text-align: center;
+    width: 5%;
+    position:relative;
+    border-radius: 50%;
+
+}
