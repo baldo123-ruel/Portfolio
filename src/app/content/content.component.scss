@@ -15,31 +15,40 @@
 }
 #languages{
     float: left;
-    width: 50%;
+    width: 40%;
+    margin: -20px 50px 50px 80px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
     position: static;
     height: auto;
-    padding: 60px;
+    border: 1px rgb(212, 210, 210) solid;
+    border-radius: 10px;
+    
     
 
 }
 #languages h3{
-    margin-left: 30%;
+    text-align: center;
     font-family: 'Bungee';
-    color: rgb(230, 228, 228);
+    color: #555;
     font-size: 20px;
 }
 #languages sub{
     font-family: 'BioRhyme', serif;
-    color: rgb(230, 228, 228);
+    color: #555;
     padding-bottom: 10px;
     font-size: 10px;
+    width: 85%;
+    margin-left: 10%;
     margin-top: 4%;
+    text-align: center;
     line-height: 2.6em;
 }
 .box-language{
     width: 80%;
     border: 1px rgb(212, 210, 210) solid;
     display: flex;
+    margin-left: 10%;
     margin-bottom: 3%;
     transition: all .3s ease;
     align-items: center;
@@ -55,7 +64,6 @@
     background-color: rgb(160, 157, 157);
     color: #555;
     width: 85%;
-    margin-left: -3%;
     box-shadow: 0 4px 10px 0 RGB(43 80 237 / 30%);
 }
 .img{
@@ -75,6 +83,7 @@
 .percent-language{
   width: 60%;
   float: left;
+  color: #555;
   margin-left: -15%;
   padding: 10px;
 }
@@ -82,7 +91,7 @@
     display: inline;
     margin-left: 2%;
     font-size: 10px;
-    color: #fff;
+    color: #555;
     font-family: 'BioRhyme', serif;
 }
 .make-percentage{
@@ -128,11 +137,17 @@
     float: right;
     width: 50%;
     padding-top: 60px;
+    margin: -20px 50px 50px 80px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
+    border-radius: 10px;
+    height: auto;
+    border: 1px rgb(212, 210, 210) solid;
 }
 #projects h3{
     text-align: center;
     font-family: 'Bungee';
-    color: rgb(230, 228, 228);
+    color: #555;
     font-size: 20px;
 }
 .img-container{
@@ -150,6 +165,11 @@
     width: 100%;
     transition: all .3s ease;
     background-color: #555;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
+    position: static;
+    height: auto;
+    border: 1px rgb(212, 210, 210) solid;
 }
 .img-list:hover{
     
@@ -158,7 +178,7 @@
 }
 .img-list p{
     font-family: 'Bungee';
-    color: rgb(230, 228, 228);
+    color: #555;
     font-size:12px ;
     padding: 5px;
     border-left: 2px rgb(230, 228, 228) solid;
@@ -167,18 +187,25 @@
     float: left;
     width: 50%;
     position: static;
+    margin: -20px 50px 50px 80px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: auto;
+    border: 1px rgb(212, 210, 210) solid;
 }
 .aboutme h3{
     text-align: center;
     font-family: 'Bungee';
-    color: rgb(230, 228, 228);
+    color: #555;
     font-size: 20px;
 }
 .paragraph{
    
     width: 90%;
     font-size: 12px;
-    color: #fff;
+    color: #555;
     margin-left: 5%;
     height: auto;
     border-left: 2px #fff solid;
@@ -186,7 +213,7 @@
 .paragraph p{
     font-family: Montserrat;
     padding-left: 40px;
-    color:rgb(230, 228, 228);
+    color:#555;
     font-style: italic;
     line-height: 2.1em;
     font-size: 15px;
@@ -210,4 +237,32 @@
     width: 60%;
    border-radius: 50px;
     
+}
+.my-header{
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 60px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
+}
+.my-info{
+    padding-top: 10px;
+    width: 100%;
+}
+.my-header h1{
+    font-size: 50px;
+    color: #555;
+    font-family: 'Bungee', cursive;
+}
+.logo{
+    display: flex;
+    width: 100%;
+}
+.logo img{
+    width: 5%;
+}
+.logo p{
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
 }
