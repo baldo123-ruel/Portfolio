@@ -211,3 +211,40 @@
    border-radius: 50px;
     
 }
+@media only screen and (max-width: 400px,){
+    #languages{
+        justify-content: center;
+        width: 100%;
+        position: static;
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    
+    .percent-languages sub{
+        display: block;
+    }
+    .box-language{
+        width: 100%;
+    }
+    .sub{
+        display: none;
+    }
+    .box-language:hover{
+        width: 100%;
+        margin: unset;
+       
+    }
+    #projects{
+        float: right;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .aboutme{
+        width: 100%;
+    }
+    .icons-flex img{
+        width: 30%;
+    }
+}
